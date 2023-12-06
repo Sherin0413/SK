@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+
+
+        }
+        .mainbox{
+            position: relative;
+         
+            background: url("good.jpg") right no-repeat; 
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+        }
+        .mainbox .slider{
+            position: fixed;
+            height: 100vh;
+            width: 280px;
+            background-color: rgba(255,255,255,0.3);
+            box-shadow: 0 0 6px rgba(255,255,255,0.3);
+        }
+        .slider .logo{
+            position: absolute;
+            width: 100%;
+            height: 60px;
+            box-shadow: 0 0 6px rgba(255,255,255,0.3);
+
+        }
+        .slider .logo a{
+            color:#fff;
+            font-size: 25px;
+            font-weight: 500;
+            position: absolute;
+            left: 50px;
+            line-height: 60px;
+            text-decoration: none;
+
+        }
+        .slider .menu{
+            position: absolute;
+            top: 80px;
+            width: 100%;
+        }
+        .slider .menu li{
+            margin-top: 6px;
+            padding: 14px 20px;
+            transition: all 0.1s linear ;
+
+        }
+        .slider .menu i{
+            color: #fff;
+            font-size: 20px;
+            padding-right: 8px;
+
+        }
+        .slider .menu a{
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+        .slider .menu li:hover{
+            border: 1px solid #fff;
+           
+            box-shadow: 0 0 4px rgba(255,255,255,0.3);
+
+        }
+        .slider .media{
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translate(-50%);
+            cursor: pointer;
+        }
+        .media i{
+
+            padding: 0 5px;
+            color: #fff;
+            opacity: 0.6;
+            font-size: 20px;
+            transition: all 0.2s linear ;
+
+
+        }
+        .media i:hover{
+            opacity: 1;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="mainbox">
+        <div class="slider">
+            <div class="logo">
+                <a href="">StyleKorea</a>
+            </div>
+            <div class="menu">
+            <ul>
+                <li><a href=""><i class="fa fa-qrcode" aria-hidden="true"></i>
+                    Dashboard</a></li>
+                <li><a href=""><i class="fa fa-link" aria-hidden="true"></i>
+                    Shortcuts</a></li>
+                <li><a href=""><i class="fa fa-adjust" aria-hidden="true"></i>
+                    Overview</a></li>
+                <li><a href=""><i class="fa fa-calendar" aria-hidden="true"></i>
+                    Events</a></li>
+                <li><a href=""><i class="fa fa-question-circle" aria-hidden="true"></i>
+                    About</a></li>
+                <li><a href=""><i class="fa fa-sliders" aria-hidden="true"></i>
+                    Services</a></li>
+                <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>
+                    Contact</a></li>
+                <li><a href=""><i class="fa fa-comments" aria-hidden="true"></i>
+                    Feedback</a></li>
+                
+            </ul>
+        </div>
+        
+            <div class="media">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
